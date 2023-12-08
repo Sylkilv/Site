@@ -1,0 +1,865 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1680px;
+    margin: 0 auto;
+    padding-top: 10px;
+    overflow-x: hidden;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    padding-left: 100px;
+}
+
+nav ul {
+    display: flex;
+    grid-gap: 0 30px;
+    list-style-type: none;
+    color: #3A5F56;
+
+
+}
+
+nav {
+    display: flex;
+    grid-gap: 0 30px;
+    padding-right: 90px;
+}
+
+button {
+    color: aliceblue;
+    background-color: #3A5F56;
+    width: 122px;
+    height: 44px;
+    border-radius: 10px;
+}
+
+.header-info {
+    background: #F4F3F0;
+    min-height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+
+}
+
+.twxt h1 {
+    padding-left: 50px;
+
+    padding-top: 336px;
+    width: 477px;
+    color: #3A5F56;
+    font-family: Source Serif Pro;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57.6px;
+    /* 120% */
+}
+
+.pic {
+    padding-top: 100px;
+    padding-left: 16px;
+}
+
+p {
+    padding-left: 50px;
+    width: 650px;
+    color: #292C32;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+    /* 140% */
+}
+
+.but {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.name h1 {
+    font-family: Source Serif Pro;
+    color: #3A5F56;
+    padding-left: 60%;
+    padding-top: 100px;
+}
+
+.name h2 {
+    font-family: Roboto;
+    color: #292C32;
+    font-size: 16px;
+    font-weight: 400px;
+    padding-left: 30%;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 15px;
+}
+
+.rectangle {
+    padding-bottom: 50px;
+    background-color: #F4F3F0;
+    border-radius: 5%;
+
+
+}
+
+.rectangle h1 {
+    color: #3A5F56;
+    font-size: 24px;
+    font-family: Source Serif Pro;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.rings {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-radius: 24px;
+    background: rgba(58, 95, 86, 0.10);
+    display: block;
+    padding: 12px;
+}
+
+.positions {
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+
+.rectangle p {
+    color: #292C32;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    padding-left: 30px;
+    width: 310px;
+    padding-top: 6px;
+}
+
+.rectangle h2 {
+    color: #3A5F56;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-top: 17px;
+}
+
+.archrectan {
+    background-color: #F4F3F0;
+    border-radius: 5%;
+    padding-bottom: 50px;
+}
+
+.archrectan h1 {
+    color: #3A5F56;
+    font-size: 24px;
+    font-family: Source Serif Pro;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.arka {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-radius: 24px;
+    background: rgba(58, 95, 86, 0.10);
+    display: block;
+    padding: 12px;
+}
+
+.archrectan p {
+    color: #292C32;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    padding-left: 30px;
+    width: 310px;
+    padding-top: 6px;
+}
+
+.archrectan h2 {
+    color: #3A5F56;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-top: 17px;
+}
+
+.naturerectan {
+    background-color: #F4F3F0;
+    border-radius: 5%;
+    padding-bottom: 50px;
+}
+
+.naturerectan h1 {
+    color: #3A5F56;
+    font-size: 24px;
+    font-family: Source Serif Pro;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.tree {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-radius: 24px;
+    background: rgba(58, 95, 86, 0.10);
+    display: block;
+    padding: 12px;
+}
+
+.naturerectan p {
+    color: #292C32;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    padding-left: 30px;
+    width: 310px;
+    padding-top: 6px;
+}
+
+.naturerectan h2 {
+    color: #3A5F56;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-top: 17px;
+}
+
+.sport {
+    background-color: #F4F3F0;
+    border-radius: 5%;
+}
+
+.greed {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px 16px;
+}
+
+.header-preset {
+    background: #F4F3F0;
+    min-height: 100vh;
+    margin-top: 100px;
+    padding-top: 90px;
+}
+
+.zick {
+    margin-left: 700px;
+}
+
+.titlee {
+    margin-left: 700px;
+    color: #DB343B;
+    font-family: Source Serif Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.store p {
+    font-family: Roboto;
+    color: #292C32;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-left: 430px;
+    padding-bottom: 70px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.vol1 {
+    background-color: white;
+    border-radius: 5%;
+    width: 379px;
+    height: 438px;
+    flex-shrink: 0;
+
+
+}
+
+.vol1 h1 {
+    color: #3A5F56;
+    font-family: Source Serif Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.vol1 h2 {
+    color: #3A5F56;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 317px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    margin-left: 160px;
+    margin-bottom: 40px;
+
+}
+
+.strel {
+    color: #3A5F56;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.8px;
+    /* 140% */
+    text-align: center;
+}
+
+.touchangle {
+    width: 800px;
+    height: 259px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #F4F3F0;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.work h1 {
+    width: 313px;
+    color: #292C32;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px;
+    /* 120% */
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.header-mirro {
+    background: #292C32;
+    min-height: 100vh;
+    margin-top: 100px;
+    padding-top: 90px;
+}
+
+.lab {
+    padding: 690px;
+}
+
+.touchangle {
+    display: block;
+    position: relative;
+}
+
+.touchangle button {
+    position: absolute;
+    left: 500px;
+    bottom: 100px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+    width: 125px;
+    height: 58px;
+    flex-shrink: 0;
+}
+
+.firstone ul {
+    color: #B87D58;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+    /* 140% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: flex;
+    grid-gap: 0 200px;
+    padding-right: 90px;
+    list-style-type: none;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.secondone ul {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+    /* 140% */
+    list-style-type: none;
+    line-height: 30px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.thirdone ul {
+    list-style-type: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+    /* 140% */
+    margin-top: 10px;
+    line-height: 30px;
+    margin-left: 30px;
+}
+
+.thirdonee ul {
+    list-style-type: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+    /* 140% */
+    margin-top: 10px;
+    line-height: 30px;
+    margin-left: 55px;
+}
+
+.griid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: 30px;
+}
+
+.info h1 {
+    color: #FAFAFC;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+    /* 140% */
+    margin-top: 10px;
+}
+
+.normal ul {
+    color: #B87D58;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+    /* 140% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: flex;
+    grid-gap: 0 40px;
+    padding-right: 90px;
+    list-style-type: none;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.categ ul {
+    list-style-type: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+    /* 140% */
+    line-height: 30px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.photto ul {
+    list-style-type: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+    /* 140% */
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.grd {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: 30px;
+}
+
+.llc a {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+    /* 140% */
+}
+
+.llc {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.icon {
+    margin-left: 1350px;
+    letter-spacing: 20px;
+}
+
+.inp {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    width: 458px;
+    height: 53px;
+    flex-shrink: 0;
+    border: 1px solid #E5E7EB;
+    background: #F9FAFB;
+
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    width: 273px;
+    vertical-align: middle;
+    color: black;
+    /* margin-top: 50px; */
+    /* display: grid; */
+}
+
+.inp button {
+    border-radius: 10px;
+    background: #292C32;
+    width: 71px;
+    height: 39px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    /* margin-bottom: 50px; */
+    /* flex-shrink: 0; */
+    /* margin-left: 300px; */
+}
+
+h1 span {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .greed {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav ul {
+        display: flex;
+        grid-gap: 0 10px;
+    }
+
+    .twxt h1 {
+        padding-top: 100px;
+    }
+
+    .name h1 {
+        padding-left: 43%;
+        padding-top: 70px;
+    }
+
+    .name h2 {
+        padding-left: 0%;
+    }
+
+    .zick {
+        margin-left: 230px;
+    }
+
+    .titlee {
+        margin-left: 230px;
+    }
+
+    .store p {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 120px;
+    }
+
+    .touchangle {
+        width: 700px;
+        margin-left: -30px;
+    }
+
+    .lab {
+        padding: 240px;
+    }
+
+    .firstone ul {
+        grid-gap: 0 70px;
+        margin-left: 0px;
+    }
+
+    .secondone ul {
+        margin-left: 0px;
+    }
+
+    .twxt p {
+        margin-top: 30px;
+    }
+
+    .thirdone ul {
+        width: 130px;
+        margin-left: 70px;
+    }
+
+    .info h1 {
+        width: auto;
+        margin-top: 15px;
+        margin-left: 70px;
+    }
+
+    .inp {
+        width: auto;
+    }
+
+    .inp button {
+        margin-left: 0px;
+
+    }
+
+    input[type="text"] {
+        width: 120px;
+    }
+
+    .photto ul {
+        width: 180px;
+        margin-left: 200px;
+    }
+
+    .llc {
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+
+    .icon {
+        margin-left: 350px;
+        letter-spacing: 20px;
+    }
+
+    .normal ul {
+        margin-top: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .pic img {
+        width: 100%;
+    }
+
+
+    .greed {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .header-top {
+        flex-direction: column;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+    }
+    .twxt h1 {
+       
+        font-size: 30px;
+        width: 250px;
+        padding-top: 40px;
+        line-height: 30px;
+        padding-left: 0px;
+        padding-right: 30px;
+    }
+    .twxt p {
+        font-size: 19px;
+        padding-left: 0px;
+        width: 200px;
+    }
+    .but button {
+        width: 95px;
+        height: 30px;
+      
+    }
+    .but {
+        padding-left: 0px;
+       
+    }
+    .pic {
+        padding-top: 40px;
+        padding-left: 0px;
+    }
+   nav button {
+        margin-top: 20px;
+    }
+    .name h1 {
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+    .grid {
+        width: 320px;
+    margin-left: -90px;
+    }
+    .vol1 h2 {
+        width: 300px;
+    }
+    .strel {
+        font-size: 13px; 
+    }
+    .zick {
+      margin-left: 10px;
+    }
+    .titlee {
+        margin-left: 10px;
+    }
+    .store p {
+        width: 200px;
+        margin-left: -10px;
+    }
+    .header-preset {
+        padding-top: 50px;
+        margin-top: 80px;
+    }
+    .touchangle {
+        width: 250px;
+
+    }
+    .work h1 {
+        font-size: 22px;
+        width: 170px;
+        margin-top: 30px;
+        margin-left: 45px;
+    }
+    .touchangle button {
+        left: 65px;
+        width: 110px;
+        height: 35px;
+        bottom: 40px;
+     
+    }
+    .lab {
+        margin-left: -230px;
+    }
+   
+    .firstone ul {
+        grid-gap: 0 60px;
+        margin-left: -20px;
+
+    }
+    .thirdone ul {
+        margin-left: 30px;
+    }
+    .griid {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: -40px;
+    }
+    .secondone ul {
+        margin-left: 30px;
+      
+    }
+    .thirdonee ul {
+        margin-left: 30px;
+        margin-top: 70px;
+    }
+    .info h1 {
+        margin-top: 75px;
+        
+    }
+    h1 span {
+        width: 110px;
+        margin-left: -30px
+    }
+    .inp {
+        margin-left: -55px;
+        width: 150px
+    }
+    input[type="text"] {
+        width: 80px;
+    }
+    .inp button {
+        width: 50px;
+        height: 30px;
+     margin-left: 15px;
+    }
+    .normal ul {
+        margin-left: -65px;
+    }
+    .categ ul {
+        margin-left: -50px;
+    }
+    .photto ul {
+        margin-left: 120px;
+        width: 0px;
+
+    }
+    .llc {
+    margin-left: -80px;
+    }
+    .icon {
+        margin-left: 10px;
+       margin-bottom: 20px;
+    }
+
+
+
+}
